@@ -444,7 +444,7 @@ class GameManager:
             font=("Comic Sans MS", 32, "bold")
         )
 
-        message_writer.goto(0, 20)
+        message_writer.goto(0, -150)
         message_writer.write(
             "Move with ← and →\nCollect stars and clouds!\nAvoid rainclouds!\n\nPress SPACE to Start",
             align="center",
